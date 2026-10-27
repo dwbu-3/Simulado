@@ -1,0 +1,9 @@
+{
+  "name": "aplicativo-simulados",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Aplicativo local de simulados (sem dependências).",
+  "scripts": { "test": "node --test" },
+  "license": "MIT"
+}

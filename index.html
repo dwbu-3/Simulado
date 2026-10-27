@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#1f3a8a">
+  <meta name="description" content="Aplicativo local para realizar simulados personalizados importando CSV e gabarito JSON. Tudo é processado no seu navegador.">
+  <title>Simulados — provas personalizadas no seu navegador</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Simulados — tela inicial">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M9.5 16.5l4.5 4.5 8.5-9.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="brand-name">Simulados</span>
+    </a>
+    <p class="tagline">Provas personalizadas, corrigidas no seu navegador.</p>
+  </header>
+  <main id="app" tabindex="-1">
+    <noscript><p class="notice error">Este aplicativo precisa de JavaScript para funcionar.</p></noscript>
+  </main>
+  <footer class="site-footer">
+    <p>Seus arquivos são lidos localmente e nunca saem deste dispositivo. O gabarito importado fica acessível no navegador: o aplicativo é para estudo pessoal, não para avaliações supervisionadas.</p>
+  </footer>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
