@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "exam_id": "demo-geral-001",
+  "title": "Simulado de Demonstração",
+  "description": "Seis questões de conhecimentos gerais para testar o aplicativo.",
+  "subject": "Conhecimentos Gerais",
+  "default_points": 1,
+  "questions": [
+    { "id": "Q001", "correct_answer": "B", "points": 1, "explanation": "2 + 2 é igual a 4." },
+    { "id": "Q002", "correct_answer": "B", "points": 2, "explanation": "Brasília é a capital federal do Brasil." },
+    { "id": "Q003", "correct_answer": "C", "points": 1, "explanation": "17 possui apenas dois divisores positivos: 1 e 17." },
+    { "id": "Q004", "correct_answer": "B", "explanation": "O romance é narrado por Brás Cubas depois de morto (defunto autor)." },
+    { "id": "Q005", "correct_answer": "c", "points": 2, "explanation": "A formulação \"Cogito, ergo sum\" é de Descartes." },
+    { "id": "Q006", "correct_answer": "B", "points": 1.5, "explanation": "3 × 5 = 15 unidades; 15 × R$ 2,50 = R$ 37,50." }
+  ]
+}
